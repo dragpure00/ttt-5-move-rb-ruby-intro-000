@@ -10,8 +10,8 @@ def input_to_index(user)
   index=user.to_i
   index -= 1
 end
-def move(array,index,character="X")
-  return array[index]=character
+def move(board,index,character="X")
+  return board[index]=character
 end
 
 board = [" ", " ", " "]
