@@ -9,7 +9,7 @@ end
 def input_to_index(current)
   new_input=current.to_i
   new_input -= 1
-  return user_input
+  return new_input
 end
 def move(board,index,character="X")
   return board[index]=character
