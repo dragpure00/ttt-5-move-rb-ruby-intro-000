@@ -13,3 +13,10 @@ end
 def move(board,index,character="X")
   return board[index]=character
 end
+
+board = [" ", " ", " "]
+def update_array_at_with(board, index, value)
+  board[index] = value
+end
+ 
+update_array_at_with(board, 0, "X")
